@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logo .logo-text {
+    color: white;
+    font-size: 24px;
+}
+
+.bold-orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color: orange;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; /* Adding bold style */
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
